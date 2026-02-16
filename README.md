@@ -122,10 +122,11 @@ Style exercise1_2.html as follows.
 
 ![Image example for Ex2.2](https://github.com/IM-WADD/Week2Practical1/assets/5978932/6149cb4e-10d6-4829-b479-795053f85dbe)
 
-- Add spacing around the content for readability and choose a font for all text.
+- Add spacing around the content for readability and choose a font for all text. Remember, `margin` and `padding` are used for spacing. Use `font-family` to set the font.
 - Give the heading element a background colour and set the text colour to something that clearly contrasts with the background colour.
 - Use the `border-bottom` property to create a solid line in a different colour to the background.
-- Use `padding` to add spacing around the content of the heading so that the text is not bunched up against the edge of the heading background colour. You may find that the text, "Chapter 1", now looks indented compared to the following paragraphs. A handy trick to correct this effect and keep all text aligned is to use negative values for `margin-left` and `margin-right` on your heading element. The value should be the same as the `padding` value, but negative e.g. if you set `padding` to 12px, set `margin-left` and `margin-right` to -12px.
+- Use `padding` to add spacing around the content of the heading so that the text is not bunched up against the edge of the heading background colour.    
+  - You may find that the text, "Chapter 1", now looks indented compared to the following paragraphs. A handy trick to correct this effect and keep all text aligned is to use negative values for `margin-left` and `margin-right` on your heading element. The value should be the same as the `padding` value, but negative e.g. if you set `padding` to 12px, set `margin-left` and `margin-right` to -12px.
 - Next, add a hover effect to the heading element using a new selector, `h1:hover`, to declare style rules to be applied only when the mouse is over the heading. When the heading is hovered, change its text and border colour.
 
 ![Image example for hover on title](https://github.com/IM-WADD/Week2Practical1/assets/5978932/fdb31348-6987-4adf-8306-9861a798d16b)
